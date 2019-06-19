@@ -15,7 +15,7 @@
         </commentGenerator>
 
         <!--数据库链接地址账号密码-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/blog?characterEncoding=UTF-8" userId="haibara"
                         password="326243hy">
         </jdbcConnection>
